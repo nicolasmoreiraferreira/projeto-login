@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto login solo</title>
+  <link rel="stylesheet" href="solo/mobile.css">
+  <link rel="stylesheet" href="solo/geral.css">
+</head>
+<body>
+  <main>
+    <section>
+      <div id="img">
+        
+      </div>
+      <div id="form">
+      <h1>Login</h1>
+      <p id="texto">Seja bem-vindo (a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+      <form action="login.php" method="post" autocomplete="on">
+        <p>
+          <label for="ie-mail"></label>
+          <input type="email" name="e-mail" id="ie-mail" placeholder="seu e-mail" required>
+        </p>
+
+        <p>
+          <label for="isenha"></label>
+          <input type="password" name="senha" id="isenha" placeholder=" sua senha" minlength="8" maxlength="8" required>
+        </p>
+
+        <p>
+          <input type="submit" value="Entrar"> <br>
+          <input type="submit" value="Esqueci a senha">
+        </p>
+      </form>
+
+    </div>
+    </section>
+  </main>
+</body>
+</html>

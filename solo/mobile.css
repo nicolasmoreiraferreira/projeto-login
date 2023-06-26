@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+ body , html {
+  height: 100vh;
+  background: url(../imagens/sean.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: block;
+  text-align: justify;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+ p#texto {
+  padding-bottom: 15px;
+  padding-left: 10px;
+ }
+
+ div#form {
+  background-image: url(../imagens/login.jpg);
+ }
+
+
+
