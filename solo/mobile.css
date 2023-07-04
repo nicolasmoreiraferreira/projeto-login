@@ -16,12 +16,12 @@
   background: url(../imagens/sean.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  display: block;
 }
 
 main {
-  display: block;
   text-align: justify;
-  background-color: white;
+  
 }
 
 h1 {
@@ -33,11 +33,51 @@ h1 {
  p#texto {
   padding-bottom: 15px;
   padding-left: 10px;
+  padding-right: 10px;
  }
 
- div#form {
-  background-image: url(../imagens/login.jpg);
+ div {
+  
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 600px;
+  height: 300px;
+  
+  
+  
  }
+
+div#form {
+  
+  position: relative;
+  
+        left: 25%;
+        top: 20%;
+        
+ }
+ 
+
+div#img {
+  position: absolute;
+  background-image: url(../imagens/login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  right: 25%;
+
+ 
+ }
+
+
+  input {
+    padding: 10px;
+    margin: 2.5px;
+  }
+
+  p#botoes {
+    text-align: center;
+  }
 
 
 
