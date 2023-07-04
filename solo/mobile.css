@@ -26,11 +26,12 @@ main {
 
 h1 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
   padding: 20px;
 }
 
  p#texto {
+  font-size: 1.1em;
   padding-bottom: 15px;
   padding-left: 10px;
   padding-right: 10px;
@@ -39,10 +40,11 @@ h1 {
  div {
   
   text-align: center;
-  border-radius: 10px;
-  border: 1px solid black;
+  
+  
+  border: 1px solid rgba(0, 0, 0, 0.144);
   padding: 10px;
-  width: 600px;
+  width: 550px;
   height: 300px;
   
   
@@ -51,10 +53,14 @@ h1 {
 
 div#form {
   
-  position: relative;
+  position: absolute;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   
-        left: 25%;
-        top: 20%;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
         
  }
  
@@ -64,20 +70,49 @@ div#img {
   background-image: url(../imagens/login.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  right: 25%;
+  background-position: bottom center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 50%;
+        left: 64.8%;
+        transform: translate(-50%, -50%);
 
  
  }
 
 
   input {
-    padding: 10px;
-    margin: 2.5px;
+    margin: 5px;
+    background-color: rgba(144, 238, 144, 0.466);
+    
   }
 
-  p#botoes {
-    text-align: center;
+  .botoes {
+    width: 500px;
+    height: 20px;
+    padding: 16px 16px 16px 16px;
+    margin: auto;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.418);
+    font-weight: bold;
   }
 
+  .botoes1 {
+    width: 500px;
+    height: 20px;
+    padding: 16px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.418);
+    font-weight: bold;
+  }
 
+  .caixa{
+    padding: 5px;
+    border-radius: 15px;
+    border: 3px solid blueviolet;
+    width: 500px;
+    height: 20px;
+
+  }
 
