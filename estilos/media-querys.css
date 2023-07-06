@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-
+ /* TABLET */
   body {
     background-image: linear-gradient(to top, #49a09d, #5f2c82);
   }
 
   section#login {
     width: 80vw;
+    height: 280PX;
   }
 
 section#login > div#imagem {
@@ -23,12 +24,13 @@ section#login > div#formulario {
 }
 
 @media screen and (min-width:992px){
-
+  /* DESKTOP */
   body {
   background-image: linear-gradient(to top, #49a09d, #5f2c82); }
 
   section#login {
     width: 950px;
+    height: 350PX;
   }
 
   section#login > div#imagem {
@@ -48,5 +50,6 @@ section#login > div#formulario {
   
    div#formulario > p {
     font-size: 1.2em;
+    margin: 20px 0px;
    }
 }
